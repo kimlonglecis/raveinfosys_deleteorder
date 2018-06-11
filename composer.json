@@ -1,0 +1,21 @@
+{
+    "name": "kimlonglecis/raveinfosys_deleteorder",
+    "type": "magento-module",
+    "description": "Delete Order From Order Grid Dashbard.  Source from simkea/Raveinfosys_Deleteorder",
+    "homepage":"https://github.com/simkea/Raveinfosys_Deleteorder",
+    "require": {
+      "magento-hackathon/magento-composer-installer": "*"
+    }, 
+    "authors":[
+      {
+        "name": "kimlongle"
+      }
+    ],
+    "extra": {
+      "map" : [
+        ["app/code/community/Raveinfosys/Deleteorder", "app/code/community/Raveinfosys/Deleteorder"],
+        ["app/design/adminhtml/default/default/layout/deleteorder.xml", "app/design/adminhtml/default/default/layout/deleteorder.xml"],
+        ["app/etc/modules/Raveinfosys_Deleteorder.xml", "app/etc/modules/Raveinfosys_Deleteorder.xml"]
+      ]
+    }
+  }
